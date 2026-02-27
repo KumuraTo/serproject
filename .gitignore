@@ -1,0 +1,37 @@
+# Python virtual env
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+Include/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# logs
+logs/
+*.log
+
+# datasets
+data/
+dataset/
+datasets/
+
+# audio temp
+*.wav
+tmp/
+
+# ignore whole models folder
+models/
+
+# but allow specific pt
+!models/ser_w2v2_3cls.pt
+
+# IDE
+.vscode/
+.idea/

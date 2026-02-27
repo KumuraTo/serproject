@@ -1,0 +1,19 @@
+# Web API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+gunicorn
+
+# Deep Learning
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.38.0
+numpy>=1.24.0
+
+# Audio processing
+soundfile>=0.12.1
+
+# OpenAI API (STT + Chat)
+openai>=1.10.0
+
+# Utilities
+python-multipart>=0.0.9
