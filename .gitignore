@@ -1,37 +1,17 @@
-# Python virtual env
 .venv/
 venv/
-env/
-Lib/
-Scripts/
-Include/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Jupyter
-.ipynb_checkpoints/
-
-# logs
-logs/
-*.log
-
-# datasets
-data/
-dataset/
+.git/
+.gitignore
 datasets/
-
-# audio temp
+dataset/
+data/
 *.wav
+*.mp3
+*.zip
+*.tar
+*.pt  # 如果你只需要 models/ser_w2v2_3cls.pt，就不要用這條
+cache/
 tmp/
-
-# ignore whole models folder
-models/
-
-# but allow specific pt
-!models/ser_w2v2_3cls.pt
-
-# IDE
-.vscode/
-.idea/
+logs/
