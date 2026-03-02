@@ -15,3 +15,7 @@ data/
 cache/
 tmp/
 logs/
+models/
+*.pt
+*.onnx
+*.onnx.data
